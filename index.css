@@ -2,7 +2,6 @@ body{
     margin: 0;
 	padding: 0;
     border: 0;
-    line-height: 1;
     list-style: none;
     display: block;
 }
@@ -81,17 +80,19 @@ ul.lista-beneficios {
     vertical-align: top;
     width: 50%;
     margin-right: 15%;
+    line-height: 35px;
 }
 
 .imagembeneficios {
     width: 25%;
+    border-radius: 10px;
 }
 
 footer {
     margin-top: 20px;
     padding: 40px 0;
     text-align: center;
-    background: url("./imagens/bg.jpg");
+    background: url("./img/bg.jpg");
 }
 
 footer p{
