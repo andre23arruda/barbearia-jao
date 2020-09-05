@@ -41,16 +41,16 @@
                 <label for="id_mensagem">Mensagem</label>
                 <textarea id="id_mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
 
-                <fieldset class="radio-group">
+                <fieldset>
                     <legend>Como prefere nosso contato?</legend>
                     <label for="id_radio_email"><input type="radio" id="id_radio_email" name="contato" checked>Email</label>
                     <label for="id_radio_telefone"><input type="radio" id="id_radio_telefone" name="contato">Telefone</label>
                     <label for="id_radio_whatsapp"><input type="radio" id="id_radio_whatsapp" name="contato">WhatsApp</label>
                 </fieldset>
 
-                <fieldset class="radio-group">
+                <fieldset>
                     <legend for="id_periodo">Qual horário prefere ser atendido?</legend>
-                    <select name="periodo" id="id_periodo">
+                    <select name="periodo" id="id_periodo" class="select-group">
                         <option value="0" selected>Manhã</option>
                         <option value="1">Tarde</option>
                         <option value="2">Noite</option>
@@ -62,6 +62,31 @@
 
                 <input type="submit" class="enviar"></input>
             </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+
+            </table>
 
         </main>
 

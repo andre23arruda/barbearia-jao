@@ -54,8 +54,16 @@ form label, form legend {
     width: 50%;
 }
 
-.radio-group {
+form fieldset {
+    width: 50%;
     margin-bottom: 20px;
+}
+
+
+form .select-group {
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 20px
 }
 
 .checkbox {
@@ -77,8 +85,22 @@ form label, form legend {
 .enviar:hover {
     background: darkorange;
     cursor: pointer;
-    transform: scale(1.2);
-    transform: rotate(1deg);
+    transform: scale(1.01);
+}
+
+table {
+    margin: 40px;
+}
+
+table thead {
+    background-color: #3b3b3b;
+    color: white;
+    font-weight: bolder;
+}
+
+td, th {
+    border: solid black 1px;
+    padding: 10px;
 }
 
 
