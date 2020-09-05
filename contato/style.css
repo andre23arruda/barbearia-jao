@@ -62,6 +62,25 @@ form label, form legend {
     margin-top: 20px;
 }
 
+.enviar {
+    width: 40%;
+    padding: 12px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14pt;
+    font-weight: bolder;
+    transition: 0.3s all;
+}
+
+.enviar:hover {
+    background: darkorange;
+    cursor: pointer;
+    transform: scale(1.2);
+    transform: rotate(1deg);
+}
+
 
 footer {
     margin-top: 20px;
