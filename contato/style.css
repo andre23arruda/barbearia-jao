@@ -54,6 +54,10 @@ form label, form p {
     width: 50%;
 }
 
+.radio-group {
+    margin-bottom: 20px;
+}
+
 .checkbox {
     margin-top: 20px;
 }
