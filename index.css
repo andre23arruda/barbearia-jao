@@ -40,53 +40,41 @@ nav a:hover{
     color: rgb(175, 56, 56);
 }
 
-.titulo-principal{
-    margin-left: 20px;
+
+/* novo css da página inicial */
+.banner {
+   width: 100%;
 }
 
-#banner{
-    width: 100%;
-}
-
-.centralizado{
+.titulo-principal {
+    clear: left;
     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
 }
 
-p{
-    text-align: center;
+.imagem-utensilios {
+    margin: 0 10px 10px 0;
+    width: 120px;
+    float: left;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 30px;
+.principal p {
+    margin: 0 0 1em
 }
 
-em strong{
-    color: #1d1d1d;
-    font-size: 14pt;
+.principal strong {
+    font-weight: bolder;
 }
 
-.itens {
-    font-style: italic
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-ul.lista-beneficios {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-    margin-right: 15%;
-    line-height: 35px;
+.principal em {
+    font-style: italic;
 }
 
 .imagembeneficios {
-    width: 25%;
-    border-radius: 10px;
+    width: 60%;
 }
+
 
 footer {
     margin-top: 20px;
