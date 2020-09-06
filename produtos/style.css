@@ -1,6 +1,10 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #bbbbbb;
-    padding: 20px 0
+    padding: 20px 10px;
 }
 
 .caixa{
@@ -91,4 +95,24 @@ footer p{
     font-size: 13px;
     margin-top: 20px;
     font-family: monospace;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa {
+        width: auto;
+    }
+
+    header { text-align: center;}
+    nav { position: static; }
+
+    .produtos{
+        width:auto;
+        padding-top: 10px;
+    }
+
+    .produtos li {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
 }
