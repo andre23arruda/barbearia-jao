@@ -47,7 +47,7 @@ main {
 }
 
 .principal {
-    padding: 3em 2em;
+    padding: 3em 2em 0em;
     background: #FEFEFE;
 }
 
@@ -149,4 +149,24 @@ footer p{
     font-size: 13px;
     margin-top: 20px;
     font-family: monospace;
+}
+
+/* Filho especifico */
+main > p {
+    color: green;
+}
+
+/* Imagem mais o primeiro paragrafo apos */
+img + p {
+    background: blue;
+}
+
+/* Imagem mais todos os pragrafos apos */
+img ~ p {
+    background: yellow
+}
+
+/* Todos os paragrafos que não tem a id missao */
+.principal p:not(#misssao) {
+    background: orange;
 }
